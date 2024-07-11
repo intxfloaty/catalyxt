@@ -1,12 +1,20 @@
 import Image from "next/image";
-import styles from "./page.module.css";
 import { Button } from "@/components/ui/button"
+import {
+  Accordion,
+  AccordionContent,
+  AccordionItem,
+  AccordionTrigger,
+} from "@/components/ui/accordion"
+import TrackComponent from "./Track";
+import { ModeToggle } from "@/components/theme-preview";
 
 
 export default function Home() {
   return (
     <div>
-      <Button>Click me</Button>
+      <ModeToggle />
+      <TrackComponent />
     </div>
   );
 }
