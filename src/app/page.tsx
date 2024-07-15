@@ -13,7 +13,7 @@ import { ModeToggle } from "@/components/theme-preview";
 export default function Home() {
   return (
     <div>
-      <ModeToggle />
+      {/* <ModeToggle /> */}
       <TrackComponent />
     </div>
   );
