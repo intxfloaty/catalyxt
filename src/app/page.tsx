@@ -10,12 +10,14 @@ import TrackComponent from "./Track";
 import { ModeToggle } from "@/components/theme-preview";
 import { MyProfile } from "@/components/MyProfile";
 import { AuthPage } from "@/components/app-auth-page";
+import { LandingPageComponent } from "@/components/landing-page";
 
 
 export default function Home() {
   return (
     <div>
-      <AuthPage />
+      <LandingPageComponent />
+      {/* <AuthPage /> */}
       {/* <MyProfile /> */}
       {/* <ProfileOverview /> */}
       {/* <TrackComponent /> */}
