@@ -8,13 +8,15 @@ import {
 } from "@/components/ui/accordion"
 import TrackComponent from "./Track";
 import { ModeToggle } from "@/components/theme-preview";
+import { MyProfile } from "@/components/MyProfile";
 
 
 export default function Home() {
   return (
     <div>
-      {/* <ModeToggle /> */}
-      <TrackComponent />
+      <MyProfile />
+      {/* <ProfileOverview /> */}
+      {/* <TrackComponent /> */}
     </div>
   );
 }

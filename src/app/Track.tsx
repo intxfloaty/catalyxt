@@ -18,38 +18,38 @@ export default function Component() {
       id: 1,
       title: "Learn Python",
       updates: [
-        ">> Completed chapter 3 of the Python Crash Course book.",
-        ">> Practiced writing functions and handling user input.",
-        ">> Researched Python libraries for data analysis.",
+        "> Completed chapter 3 of the Python Crash Course book.",
+        "> Practiced writing functions and handling user input.",
+        "> Researched Python libraries for data analysis.",
       ],
     },
-    {
-      id: 2,
-      title: "Build a SaaS Product",
-      updates: [
-        "-- Finalized the product roadmap and feature list.",
-        "-- Designed the user interface and wireframed the app.",
-        "-- Started coding the backend API using Node.js and Express.",
-      ],
-    },
-    {
-      id: 3,
-      title: "Learn the Piano",
-      updates: [
-        ">> Practiced scales and arpeggios for 30 minutes.",
-        ">> Worked on playing Beethoven's Moonlight Sonata.",
-        ">> Watched a tutorial on proper piano posture and technique.",
-      ],
-    },
-    {
-      id: 4,
-      title: "Train for a 10K Run",
-      updates: [
-        ">> Went for a 5-mile run and felt great.",
-        ">> Stretched and did some core exercises.",
-        ">> Researched training plans for 10K runs.",
-      ],
-    },
+    // {
+    //   id: 2,
+    //   title: "Build a SaaS Product",
+    //   updates: [
+    //     "-- Finalized the product roadmap and feature list.",
+    //     "-- Designed the user interface and wireframed the app.",
+    //     "-- Started coding the backend API using Node.js and Express.",
+    //   ],
+    // },
+    // {
+    //   id: 3,
+    //   title: "Learn the Piano",
+    //   updates: [
+    //     "> Practiced scales and arpeggios for 30 minutes.",
+    //     "> Worked on playing Beethoven's Moonlight Sonata.",
+    //     "> Watched a tutorial on proper piano posture and technique.",
+    //   ],
+    // },
+    // {
+    //   id: 4,
+    //   title: "Train for a 10K Run",
+    //   updates: [
+    //     ">> Went for a 5-mile run and felt great.",
+    //     ">> Stretched and did some core exercises.",
+    //     ">> Researched training plans for 10K runs.",
+    //   ],
+    // },
   ])
   const [newTrackTitle, setNewTrackTitle] = useState("")
   const [newTrackUpdate, setNewTrackUpdate] = useState("")
@@ -98,7 +98,7 @@ export default function Component() {
               <Link href="#" className="block px-6 py-3 hover:bg-accent hover:text-accent-foreground" prefetch={false}>
                 Help
               </Link>
-              {/* <ModeToggle /> */}
+              <ModeToggle />
             </div>
           </div>
         </div>
