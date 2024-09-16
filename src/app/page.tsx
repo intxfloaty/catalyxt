@@ -9,12 +9,14 @@ import {
 import TrackComponent from "./Track";
 import { ModeToggle } from "@/components/theme-preview";
 import { MyProfile } from "@/components/MyProfile";
+import { AuthPage } from "@/components/app-auth-page";
 
 
 export default function Home() {
   return (
     <div>
-      <MyProfile />
+      <AuthPage />
+      {/* <MyProfile /> */}
       {/* <ProfileOverview /> */}
       {/* <TrackComponent /> */}
     </div>

@@ -44,7 +44,7 @@ export function MyProfile() {
               {/* Pinned Repositories */}
               <h2 className="text-lg font-semibold mb-4">My Tracks</h2>
               <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-                {[1, 2, 3, 4].map((repo) => (
+                {[1, 2, 3, 4, 5, 6, 7].map((repo) => (
                   <Card key={repo}>
                     <CardHeader>
                       <CardTitle className="text-base font-medium">
